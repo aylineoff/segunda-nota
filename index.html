@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio en PDF</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
 
         * {
             margin: 0;
@@ -18,13 +18,13 @@
             Primer punto:
             Cambie los colores, usando alguna armonía de color tomada de 
             https://color.adobe.com/es/create/color-wheel
-            Indique en este comentario la armonía que decide utilizar 
+            Colores monocromaticos
         */
 
         :root{
-            --colorPrincipal:#4DDBD6;
-            --colorOpuesto:#DB4DBF;
-            --colorMediador:#DBC24D;
+            --colorPrincipal:#4784E6;
+            --colorOpuesto:#212833;
+            --colorMediador:#6792D7;
         }
 
         /* 
@@ -32,14 +32,14 @@
         */
 
         body {
-            font-family: Helvetica, Arial, sans-serif;
+           font-family: "Lexend Giga", sans-serif;
             background-color: #FFF;
-            color: #000;
+            color: #FFF;
             overflow-x: hidden;
         }
 
         a{
-            color:black;
+            color:#ffffff;
         }
 
         a:hover{
@@ -73,9 +73,10 @@
 
 
         h1 {
-            font-family: "Climate Crisis", sans-serif;
-            font-weight: 400;
-            font-size: calc(2rem + 2vw);
+              font-family: "Lexend Giga", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
             line-height: 1.1;
             margin-bottom: 30px;
             text-transform: uppercase;
@@ -93,11 +94,11 @@
         }
 
         .download-btn {
-            font-family: "Climate Crisis", sans-serif;
+            font-family: "Lexend Giga", sans-serif;
             letter-spacing: 2px;
             font-size: calc(0.75rem + 0.75vw);
             background-color: var(--colorMediador);
-            color: #000;
+            color: #FFF;
             border: 6px solid #000;
             padding: 25px 50px;
             text-transform: uppercase;
@@ -139,7 +140,7 @@
         }
 
         .mugshot-frame {
-            border: 8px solid #000;
+            border: 8px solid #FFF;
             box-shadow: 20px 20px 0 #000;
             background-color: #FFF;
             padding: 20px;
@@ -154,7 +155,7 @@
         .mugshot {
             width: 100%;
             height: auto;
-            background:black;
+            background:#000;
         }
 
         .mugshot img{
@@ -167,7 +168,7 @@
         }
 
         .badge {
-            font-family: "Climate Crisis", sans-serif;
+            font-family: "Lexend Giga", sans-serif;
             position: absolute;
             top: -30px;
             right: -30px;
@@ -208,8 +209,9 @@
     <div class="container">
         <div class="left-section">
             <!--segundo punto por los ajuste en la sección izquierda-->
-            <h1>NOMBRE APELLIDO</h1>
-            <p>Reemplace este texto, manteniendo la brevedad y usando un <a href="https://www.nngroup.com/videos/tone-of-voice-dimensions/" target="_blank">tono de voz</a> que coincida con el <a href="https://www.nngroup.com/articles/neobrutalism/" target="_blank">neobrutalismo</a> que inspira el estilo de la página; y cambie la foto por un retrato suyo.</p>
+            <h1>Ayline Marín</h1>
+            <p>Estudiante de Diseño (segundo año, U. de Chile).
+                Mi enfoque es sereno y se nutre de la experimentación, generando una amplitud de ideas con un enfoque preciso en el detalle. Te invito a explorar mi portafolio y la mayoría de mis proyectos en este espacio.</p>
             <!--suba el PDF a GitHub y cambie la referencia de hipertexto-->
             <a href="#" class="download-btn" download>MI PORTAFOLIO</a>
         </div>
@@ -224,7 +226,7 @@
                 <div class="mugshot-frame">
                     <div class="mugshot">
                         <!--incluya la misma imagen que utiliza en su portafolio, a resolución, tamaño y peso adecuado para la web-->
-                        <img src="https://picsum.photos/500/500.jpg">
+                        <img src="https://aylineoff.github.io/segunda-nota/img/foto retrato.webp">
                     </div>
                 </div>
             </div>
